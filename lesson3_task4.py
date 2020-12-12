@@ -33,7 +33,7 @@ def my_func(x, y):
                 result = float(x)
                 for i in range(abs(int(y))):
                     result = result * float(x)
-                print(result)
+                print(1/result)
                 return True
         except ValueError:
             print("Введенные данные некорректны, попробуйте еще раз")
